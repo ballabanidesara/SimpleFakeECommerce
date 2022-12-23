@@ -15,6 +15,7 @@ import {DialogModule} from 'primeng/dialog';
 import {InputTextModule} from 'primeng/inputtext';
 import {RatingModule} from 'primeng/rating';
 import {RippleModule} from 'primeng/ripple';
+import { ProductsComponent } from './component/products/products.component';
 
 @NgModule({
   imports: [
@@ -31,7 +32,7 @@ import {RippleModule} from 'primeng/ripple';
     RatingModule,
     FormsModule
   ],
-  declarations: [ AppComponent ],
+  declarations: [ AppComponent, ProductsComponent ],
   bootstrap:    [ AppComponent ],
   providers: [ProductService]
 })
